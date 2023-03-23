@@ -1,0 +1,147 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 3600,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 240,
+            "Height": 320
+          },
+          {
+            "Type": "Gauge",
+            "Name": "gauge1",
+            "Width": 240,
+            "Height": 240,
+            "Preset": "alternate_theme\\presets\\gauges\\medium\\active_filled.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_gauge_medium_backgrounds_active_filled.png",
+            "RotationCenterX": 119.0,
+            "RotationCenterY": 119.0,
+            "StartAngle": -117.0,
+            "EndAngle": 121.0,
+            "RangeMax": 100.0,
+            "InitialValue": 50.0,
+            "Easing": "Linear",
+            "EasingOption": "In",
+            "FileNameNeedle": "__generated\\alternate_theme_images_widgets_gauge_medium_needles_rough.png",
+            "NeedleRotationCenterX": 9.0,
+            "NeedleRotationCenterY": 64.0,
+            "NeedleMovingRenderingAlgorithm": "Bilinear Interpolation",
+            "NeedleSteadyRenderingAlgorithm": "Bilinear Interpolation",
+            "UseArc": true,
+            "FileNameArc": "__generated\\alternate_theme_images_widgets_gauge_medium_fillers_swoop.png",
+            "ArcColor": {
+              "Red": 20,
+              "Green": 151,
+              "Blue": 197
+            },
+            "SetArcPosition": true,
+            "ArcX": 23.0,
+            "ArcY": 23.0,
+            "ArcWidth": 192.0,
+            "ArcHeight": 142.0,
+            "ArcRadius": 100.0,
+            "ArcLineWidth": 99.0,
+            "ArcCapStyle": "Butt"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Button_Increase",
+            "Y": 251,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "TextId": "__SingleUse_YKXK",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Button_Increase"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "v_increase_v"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "TOuchGFX_4_21_1_First",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F429/439",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I_DISCO_REV_D01.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "Vector"
+    ]
+  },
+  "Version": "4.21.1",
+  "CreatedBy": "4.21.1"
+}
