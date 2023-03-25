@@ -63,6 +63,7 @@
 									<listOptionValue builtIn="false" value="../../TouchGFX/generated/images/include"/>
 									<listOptionValue builtIn="false" value="../../TouchGFX/generated/texts/include"/>
 									<listOptionValue builtIn="false" value="../../TouchGFX/gui/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/videos/include"/>
 								</option>
 								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.languagestandard.1129136718" name="Language standard" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.languagestandard" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.languagestandard.value.gnu11" valueType="enumerated"/>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.615025746" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
@@ -94,6 +95,7 @@
 									<listOptionValue builtIn="false" value="../../TouchGFX/generated/images/include"/>
 									<listOptionValue builtIn="false" value="../../TouchGFX/generated/texts/include"/>
 									<listOptionValue builtIn="false" value="../../TouchGFX/gui/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/videos/include"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.otherflags.9298196417" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.otherflags" valueType="stringList">
 									<listOptionValue builtIn="false" value="-femit-class-debug-always"/>
@@ -110,6 +112,7 @@
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories.8917889740" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories" valueType="libPaths">
 									<listOptionValue builtIn="false" value="C:/git/STM32F429-dk/untouched/rev_D/stm32f429i_disco_rev_d01/STM32F429I_DISCO_REV_D01/Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc"/>
+									<listOptionValue builtIn="false" value="D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_TextAreaCounter/Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input.351982862" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
@@ -187,6 +190,7 @@
 									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
 									<listOptionValue builtIn="false" value="../../TouchGFX/generated/fonts/include"/>
 									<listOptionValue builtIn="false" value="../../Drivers/STM32F4xx_HAL_Driver/Inc"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/videos/include"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1321288404" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
@@ -216,6 +220,7 @@
 									<listOptionValue builtIn="false" value="../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
 									<listOptionValue builtIn="false" value="../../TouchGFX/generated/fonts/include"/>
 									<listOptionValue builtIn="false" value="../../Drivers/STM32F4xx_HAL_Driver/Inc"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/videos/include"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.otherflags.1763873102" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.otherflags" valueType="stringList">
 									<listOptionValue builtIn="false" value="-femit-class-debug-always"/>
@@ -232,6 +237,7 @@
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories.6116079659" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories" valueType="libPaths">
 									<listOptionValue builtIn="false" value="C:/git/STM32F429-dk/untouched/rev_D/stm32f429i_disco_rev_d01/STM32F429I_DISCO_REV_D01/Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc"/>
+									<listOptionValue builtIn="false" value="D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_TextAreaCounter/Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input.1556095232" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
