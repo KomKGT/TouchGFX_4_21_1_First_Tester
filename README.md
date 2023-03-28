@@ -8,4 +8,4 @@ __1)__ STM32CubeMX 6.7.0   กรณีเปิดใช้งานครั�
     1.2)  ติ๊กให้ตรงหัวข้อ _TouchGFX Generator 4.21.1_ ให้เป็นสีเขียวแล้วกด _install_ ![image](https://user-images.githubusercontent.com/81642936/227419637-5b2681e2-5d85-4730-b487-7f57b2a12b03.png)
 __2)__ STM32 TouchGFX 4.21.1    
 __3)__ STM32IDE 1.12.0    
-__4)__STM32CubeProgramming 2.13.0    
+__4)__ STM32CubeProgramming 2.13.0    
