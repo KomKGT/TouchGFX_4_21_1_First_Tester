@@ -37,9 +37,8 @@
           {
             "Type": "TextArea",
             "Name": "counterText",
-            "X": 107,
-            "Y": 70,
-            "Width": 26,
+            "Y": 65,
+            "Width": 240,
             "Height": 49,
             "TextId": "__SingleUse_DRHE",
             "TextRotation": "0",
@@ -48,9 +47,10 @@
               "Green": 252,
               "Blue": 252
             },
-            "AutoSize": true,
             "Wildcard1": {
-              "TextId": "__SingleUse_J0X8"
+              "TextId": "__SingleUse_J0X8",
+              "UseBuffer": true,
+              "BufferSize": 10
             }
           },
           {

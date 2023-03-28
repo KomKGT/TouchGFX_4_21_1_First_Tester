@@ -13,7 +13,7 @@
         <Translation Language="GB">+</Translation>
       </Text>
       <Text Id="__SingleUse_J0X8" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">0</Translation>
+        <Translation Language="GB">00</Translation>
       </Text>
       <Text Id="__SingleUse_DRHE" Alignment="Center" TypographyId="Large">
         <Translation Language="GB">&lt;number&gt;</Translation>

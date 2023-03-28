@@ -25,11 +25,11 @@ Screen1ViewBase::Screen1ViewBase() :
     buttonDecrease.setAction(buttonCallback);
     add(buttonDecrease);
 
-    counterText.setXY(107, 70);
+    counterText.setPosition(0, 65, 240, 49);
     counterText.setColor(touchgfx::Color::getColorFromRGB(252, 252, 252));
     counterText.setLinespacing(0);
-    counterText.setWildcard(touchgfx::TypedText(T___SINGLEUSE_J0X8).getText());
-    counterText.resizeToCurrentText();
+    Unicode::snprintf(counterTextBuffer, COUNTERTEXT_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_J0X8).getText());
+    counterText.setWildcard(counterTextBuffer);
     counterText.setTypedText(touchgfx::TypedText(T___SINGLEUSE_DRHE));
     add(counterText);
 

@@ -14,3 +14,15 @@ void Screen1View::tearDownScreen()
 {
     Screen1ViewBase::tearDownScreen();
 }
+void Screen1View::v_increase_v()
+{
+	counter++;
+	Unicode::snprintf(counterTextBuffer, COUNTERTEXT_SIZE, "%02d",counter);
+	counterText.invalidate();
+}
+void Screen1View::v_decrease_v()
+{
+	counter--;
+	Unicode::snprintf(counterTextBuffer, COUNTERTEXT_SIZE, "%02d",counter);
+	counterText.invalidate();
+}

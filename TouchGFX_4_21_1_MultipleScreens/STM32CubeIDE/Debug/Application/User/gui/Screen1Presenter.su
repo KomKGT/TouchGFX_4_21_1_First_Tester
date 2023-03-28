@@ -1,0 +1,9 @@
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1Presenter.hpp:28:13:Screen1Presenter::~Screen1Presenter()	0	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_MultipleScreens/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:10:6:virtual void Screen1Presenter::activate()	0	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1Presenter.hpp:28:13:virtual Screen1Presenter::~Screen1Presenter()	8	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1Presenter.hpp:28:13:virtual void* Screen1Presenter::_ZThn4_N16Screen1PresenterD1Ev()	0	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_MultipleScreens/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:4:1:Screen1Presenter::Screen1Presenter(Screen1View&)	8	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_MultipleScreens/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:19:6:void Screen1Presenter::setHour(int16_t)	0	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_MultipleScreens/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:23:6:void Screen1Presenter::setMinute(int16_t)	0	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_MultipleScreens/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:27:9:int16_t Screen1Presenter::getHour()	0	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_MultipleScreens/TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp:31:9:int16_t Screen1Presenter::getMinute()	0	static

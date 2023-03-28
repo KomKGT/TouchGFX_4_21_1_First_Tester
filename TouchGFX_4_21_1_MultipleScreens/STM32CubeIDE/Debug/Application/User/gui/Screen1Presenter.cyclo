@@ -1,0 +1,9 @@
+Screen1Presenter.hpp:28:13:Screen1Presenter::~Screen1Presenter()	1
+Screen1Presenter.cpp:10:6:virtual void Screen1Presenter::activate()	1
+Screen1Presenter.hpp:28:13:virtual Screen1Presenter::~Screen1Presenter()	1
+Screen1Presenter.hpp:28:13:virtual void* Screen1Presenter::_ZThn4_N16Screen1PresenterD1Ev()	1
+Screen1Presenter.cpp:4:1:Screen1Presenter::Screen1Presenter(Screen1View&)	1
+Screen1Presenter.cpp:19:6:void Screen1Presenter::setHour(int16_t)	1
+Screen1Presenter.cpp:23:6:void Screen1Presenter::setMinute(int16_t)	1
+Screen1Presenter.cpp:27:9:int16_t Screen1Presenter::getHour()	1
+Screen1Presenter.cpp:31:9:int16_t Screen1Presenter::getMinute()	1

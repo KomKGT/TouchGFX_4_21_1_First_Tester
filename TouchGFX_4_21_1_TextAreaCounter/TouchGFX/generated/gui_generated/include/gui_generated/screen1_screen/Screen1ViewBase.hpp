@@ -45,6 +45,12 @@ protected:
     touchgfx::TextAreaWithOneWildcard counterText;
     touchgfx::ButtonWithLabel buttonIncrease;
 
+    /*
+     * Wildcard Buffers
+     */
+    static const uint16_t COUNTERTEXT_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar counterTextBuffer[COUNTERTEXT_SIZE];
+
 private:
 
     /*

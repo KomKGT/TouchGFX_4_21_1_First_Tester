@@ -1,0 +1,6 @@
+Model.cpp:4:1:Model::Model()	1
+Model.cpp:10:6:void Model::tick()	1
+Model.cpp:14:6:void Model::setHour(int16_t)	1
+Model.cpp:18:6:void Model::setMinute(int16_t)	1
+Model.cpp:22:9:int16_t Model::getHour()	1
+Model.cpp:26:9:int16_t Model::getMinute()	1
