@@ -984,10 +984,9 @@ void StartledTaskfix(void *argument)
   /* Infinite loop */
   for(;;)
   {
-	  HAL_GPIO_WritePin(GPIOG, GPIO_PIN_13, GPIO_PIN_SET);
-	      osDelay(1000);
-	      HAL_GPIO_WritePin(GPIOG, GPIO_PIN_13, GPIO_PIN_RESET);
-
+	HAL_GPIO_WritePin(GPIOG, GPIO_PIN_13, GPIO_PIN_SET);
+	osDelay(1000);
+	HAL_GPIO_WritePin(GPIOG, GPIO_PIN_13, GPIO_PIN_RESET);
     osDelay(1000);
   }
   /* USER CODE END StartledTaskfix */
