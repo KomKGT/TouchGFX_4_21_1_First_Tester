@@ -1,0 +1,5 @@
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Display_TurnOn_TurnOFF/Middlewares/Third_Party/LibJPEG/source/jdpostct.c:73:1:start_pass_dpost	24	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Display_TurnOn_TurnOFF/Middlewares/Third_Party/LibJPEG/source/jdpostct.c:126:1:post_process_1pass	56	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Display_TurnOn_TurnOFF/Middlewares/Third_Party/LibJPEG/source/jdpostct.c:158:1:post_process_prepass	56	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Display_TurnOn_TurnOFF/Middlewares/Third_Party/LibJPEG/source/jdpostct.c:202:1:post_process_2pass	40	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Display_TurnOn_TurnOFF/Middlewares/Third_Party/LibJPEG/source/jdpostct.c:250:1:jinit_d_post_controller	40	static

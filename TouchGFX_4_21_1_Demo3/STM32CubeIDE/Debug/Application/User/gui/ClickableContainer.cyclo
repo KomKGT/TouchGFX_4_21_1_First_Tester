@@ -1,0 +1,22 @@
+ClickEvent.hpp:144:30:virtual touchgfx::Event::EventType touchgfx::ClickEvent::getEventType() const	1
+DragEvent.hpp:142:30:virtual touchgfx::Event::EventType touchgfx::DragEvent::getEventType() const	1
+Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	1
+Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	1
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	1
+Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	1
+Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	1
+Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	1
+Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	1
+Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	1
+ClickableContainer.hpp:43:13:touchgfx::ClickableContainer::~ClickableContainer()	1
+DragEvent.hpp:32:7:touchgfx::DragEvent::~DragEvent()	1
+ClickEvent.hpp:32:7:touchgfx::ClickEvent::~ClickEvent()	1
+ClickEvent.hpp:32:7:virtual touchgfx::ClickEvent::~ClickEvent()	1
+DragEvent.hpp:32:7:virtual touchgfx::DragEvent::~DragEvent()	1
+ClickableContainer.hpp:43:13:virtual touchgfx::ClickableContainer::~ClickableContainer()	1
+Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
+ClickableContainer.cpp:29:6:virtual void touchgfx::ClickableContainer::handleClickEvent(const touchgfx::ClickEvent&)	18
+ClickableContainer.cpp:153:6:virtual void touchgfx::ClickableContainer::handleGestureEvent(const touchgfx::GestureEvent&)	7
+ClickableContainer.hpp:94:18:virtual void touchgfx::ClickableContainer::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	3
+ClickableContainer.cpp:123:6:virtual void touchgfx::ClickableContainer::handleDragEvent(const touchgfx::DragEvent&)	7
+ClickableContainer.cpp:8:1:touchgfx::ClickableContainer::ClickableContainer()	1

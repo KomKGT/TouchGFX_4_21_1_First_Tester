@@ -1,0 +1,32 @@
+Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	1
+Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	1
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	1
+Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	1
+Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	1
+Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	1
+Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	1
+Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	1
+Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	1
+Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	1
+Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+MainView.cpp:29:6:virtual void MainView::tearDownScreen()	1
+SparseContainerList.hpp:39:13:SparseContainerItems<T, S>::~SparseContainerItems() [with T = TextAreaWithOneWildcardContainer; int S = 10]	2
+FadeAnimator.hpp:84:18:void touchgfx::FadeAnimator<T>::setFadeAnimationDelay(uint16_t) [with T = ParticlesScrollingWheel]	1
+FadeAnimator.hpp:96:22:uint16_t touchgfx::FadeAnimator<T>::getFadeAnimationDelay() const [with T = ParticlesScrollingWheel]	1
+SparseContainerList.hpp:39:13:SparseContainerItems<T, S>::~SparseContainerItems() [with T = TextAreaWithOneWildcardContainer; int S = 10]	1
+Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
+FadeAnimator.hpp:41:7:touchgfx::FadeAnimator<ParticlesScrollingWheel>::~FadeAnimator()	1
+FadeAnimator.hpp:41:7:virtual touchgfx::FadeAnimator<ParticlesScrollingWheel>::~FadeAnimator()	1
+Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	1
+MainView.cpp:9:6:virtual void MainView::setupScreen()	1
+MainView.cpp:4:1:MainView::MainView()	1
+FadeAnimator.hpp:122:10:void touchgfx::FadeAnimator<T>::startFadeAnimation(uint8_t, uint16_t, touchgfx::EasingEquation) [with T = touchgfx::TextArea]	9
+MoveAnimator.hpp:131:10:void touchgfx::MoveAnimator<T>::startMoveAnimation(int16_t, int16_t, uint16_t, touchgfx::EasingEquation, touchgfx::EasingEquation) [with T = touchgfx::Image]	7
+FadeAnimator.hpp:165:10:void touchgfx::FadeAnimator<T>::nextFadeAnimationStep() [with T = ParticlesScrollingWheel]	8
+FadeAnimator.hpp:157:18:void touchgfx::FadeAnimator<T>::handleTickEvent() [with T = ParticlesScrollingWheel]	1
+FadeAnimator.hpp:122:10:void touchgfx::FadeAnimator<T>::startFadeAnimation(uint8_t, uint16_t, touchgfx::EasingEquation) [with T = ParticlesScrollingWheel]	3
+MainView.cpp:33:6:virtual void MainView::gotoMenuSelected()	2
+MainView.hpp:14:13:MainView::~MainView()	1
+MainView.hpp:14:13:virtual MainView::~MainView()	1

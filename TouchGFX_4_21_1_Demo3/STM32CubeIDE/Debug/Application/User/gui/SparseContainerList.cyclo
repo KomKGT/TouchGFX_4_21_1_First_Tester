@@ -1,0 +1,21 @@
+Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	1
+Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	1
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	1
+Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	1
+Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	1
+Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	1
+Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	1
+Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	1
+Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	1
+Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	1
+Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	1
+SparseContainerList.hpp:60:7:SparseContainerList::~SparseContainerList()	1
+SparseContainerList.hpp:60:7:virtual SparseContainerList::~SparseContainerList()	1
+Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
+Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	1
+SparseContainerList.cpp:3:1:SparseContainerList::SparseContainerList()	1
+SparseContainerList.cpp:71:6:void SparseContainerList::setVirtualOffset(int32_t)	22
+SparseContainerList.cpp:7:6:void SparseContainerList::setup(bool, bool, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, touchgfx::GenericCallback<int, touchgfx::Container**>&, touchgfx::GenericCallback<int, int>&)	5
+SparseContainerList.cpp:185:9:int16_t SparseContainerList::getItemIndex(int16_t)	5
+SparseContainerList.cpp:203:9:int16_t SparseContainerList::getContainerIndices(int16_t, int16_t*, int16_t)	5
+SparseContainerList.cpp:230:9:int16_t SparseContainerList::getContainerIndex(int16_t, int16_t)	7

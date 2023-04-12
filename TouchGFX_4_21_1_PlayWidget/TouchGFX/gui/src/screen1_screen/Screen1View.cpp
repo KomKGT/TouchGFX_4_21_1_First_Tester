@@ -42,4 +42,6 @@ void Screen1View::setTime()
 	  HAL_RTC_SetTime(&hrtc, &RTC_Time,RTC_FORMAT_BCD);
 	  HAL_RTC_SetDate(&hrtc, &RTC_Date, RTC_FORMAT_BCD);
 
+	  //application().gotoScreen2ScreenSlideTransitionWest();
+
 }

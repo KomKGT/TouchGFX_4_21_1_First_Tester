@@ -1,0 +1,22 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/events/ClickEvent.hpp:144:30:virtual touchgfx::Event::EventType touchgfx::ClickEvent::getEventType() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/events/DragEvent.hpp:142:30:virtual touchgfx::Event::EventType touchgfx::DragEvent::getEventType() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	4	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+../../TouchGFX/gui/include/gui/common/ScrollingWheels/ClickableContainer.hpp:43:13:touchgfx::ClickableContainer::~ClickableContainer()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/events/DragEvent.hpp:32:7:touchgfx::DragEvent::~DragEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/events/ClickEvent.hpp:32:7:touchgfx::ClickEvent::~ClickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/events/ClickEvent.hpp:32:7:virtual touchgfx::ClickEvent::~ClickEvent()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/events/DragEvent.hpp:32:7:virtual touchgfx::DragEvent::~DragEvent()	8	static
+../../TouchGFX/gui/include/gui/common/ScrollingWheels/ClickableContainer.hpp:43:13:virtual touchgfx::ClickableContainer::~ClickableContainer()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Demo3/TouchGFX/gui/src/common/ScrollingWheels/ClickableContainer.cpp:29:6:virtual void touchgfx::ClickableContainer::handleClickEvent(const touchgfx::ClickEvent&)	176	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Demo3/TouchGFX/gui/src/common/ScrollingWheels/ClickableContainer.cpp:153:6:virtual void touchgfx::ClickableContainer::handleGestureEvent(const touchgfx::GestureEvent&)	24	static
+../../TouchGFX/gui/include/gui/common/ScrollingWheels/ClickableContainer.hpp:94:18:virtual void touchgfx::ClickableContainer::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	12	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Demo3/TouchGFX/gui/src/common/ScrollingWheels/ClickableContainer.cpp:123:6:virtual void touchgfx::ClickableContainer::handleDragEvent(const touchgfx::DragEvent&)	40	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Demo3/TouchGFX/gui/src/common/ScrollingWheels/ClickableContainer.cpp:8:1:touchgfx::ClickableContainer::ClickableContainer()	0	static

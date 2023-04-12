@@ -1,0 +1,21 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	4	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
+../../TouchGFX/gui/include/gui/common/ScrollingWheels/SparseContainerList.hpp:60:7:SparseContainerList::~SparseContainerList()	0	static
+../../TouchGFX/gui/include/gui/common/ScrollingWheels/SparseContainerList.hpp:60:7:virtual SparseContainerList::~SparseContainerList()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	24	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Demo3/TouchGFX/gui/src/common/ScrollingWheels/SparseContainerList.cpp:3:1:SparseContainerList::SparseContainerList()	0	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Demo3/TouchGFX/gui/src/common/ScrollingWheels/SparseContainerList.cpp:71:6:void SparseContainerList::setVirtualOffset(int32_t)	40	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Demo3/TouchGFX/gui/src/common/ScrollingWheels/SparseContainerList.cpp:7:6:void SparseContainerList::setup(bool, bool, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, touchgfx::GenericCallback<int, touchgfx::Container**>&, touchgfx::GenericCallback<int, int>&)	48	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Demo3/TouchGFX/gui/src/common/ScrollingWheels/SparseContainerList.cpp:185:9:int16_t SparseContainerList::getItemIndex(int16_t)	0	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Demo3/TouchGFX/gui/src/common/ScrollingWheels/SparseContainerList.cpp:203:9:int16_t SparseContainerList::getContainerIndices(int16_t, int16_t*, int16_t)	20	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Demo3/TouchGFX/gui/src/common/ScrollingWheels/SparseContainerList.cpp:230:9:int16_t SparseContainerList::getContainerIndex(int16_t, int16_t)	20	static

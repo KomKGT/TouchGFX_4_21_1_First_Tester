@@ -1,0 +1,28 @@
+Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	1
+Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	1
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	1
+Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	1
+Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	1
+Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	1
+Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	1
+ScrollingMenu.hpp:16:7:ScrollingMenu::~ScrollingMenu()	1
+ScrollingMenu.hpp:16:7:virtual ScrollingMenu::~ScrollingMenu()	1
+Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
+ClickableContainer.hpp:94:18:virtual void touchgfx::ClickableContainer::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	3
+ScrollingMenu.cpp:7:1:ScrollingMenu::ScrollingMenu()	1
+ScrollingMenu.cpp:70:9:int32_t ScrollingMenu::getNormalizedOffset(int32_t) const	2
+ScrollingMenu.cpp:80:6:void ScrollingMenu::setVirtualOffset(int32_t)	1
+ScrollingMenu.cpp:19:6:void ScrollingMenu::setup(bool, bool, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, touchgfx::GenericCallback<int, touchgfx::Container**>&, touchgfx::GenericCallback<int, int>&)	1
+ScrollingMenu.cpp:87:5:int ScrollingMenu::getSelectedItem() const	3
+ScrollingMenu.cpp:204:6:virtual void ScrollingMenu::handleTickEvent()	5
+ScrollingMenu.cpp:102:6:void ScrollingMenu::itemChanged(int)	4
+ScrollingMenu.cpp:118:6:void ScrollingMenu::setItemUpdatedCallback(touchgfx::GenericCallback<int, int>&)	1
+ScrollingMenu.cpp:123:6:void ScrollingMenu::setAnimationEndedCallback(touchgfx::GenericCallback<int>&)	1
+ScrollingMenu.cpp:128:6:bool ScrollingMenu::isAnimating() const	1
+ScrollingMenu.cpp:149:9:int32_t ScrollingMenu::keepOffsetInsideLimits(int32_t, int16_t) const	3
+ScrollingMenu.cpp:133:9:int32_t ScrollingMenu::getNearestAlignedOffset(int32_t) const	5
+ScrollingMenu.cpp:179:6:virtual void ScrollingMenu::handleDragEvent(const touchgfx::DragEvent&)	2
+ScrollingMenu.cpp:225:6:void ScrollingMenu::animateTo(int32_t)	3
+ScrollingMenu.cpp:160:6:virtual void ScrollingMenu::handleClickEvent(const touchgfx::ClickEvent&)	4
+ScrollingMenu.cpp:188:6:virtual void ScrollingMenu::handleGestureEvent(const touchgfx::GestureEvent&)	3
+ScrollingMenu.cpp:48:6:void ScrollingMenu::setSelectedItem(int)	2

@@ -1,0 +1,20 @@
+Drawable.hpp:147:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	1
+Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	1
+Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	1
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	1
+Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	1
+Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	1
+Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	1
+Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	1
+Drawable.hpp:703:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	1
+Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	3
+AbstractButton.hpp:86:18:virtual bool touchgfx::AbstractButton::getPressedState() const	1
+TouchArea.hpp:40:18:virtual void touchgfx::TouchArea::draw(const touchgfx::Rect&) const	1
+TouchArea.hpp:50:18:virtual touchgfx::Rect touchgfx::TouchArea::getSolidRect() const	1
+TouchArea.hpp:65:18:virtual void touchgfx::TouchArea::invalidateContent() const	1
+TouchForwarder.cpp:3:6:virtual void TouchForwarder::handleClickEvent(const touchgfx::ClickEvent&)	1
+TouchForwarder.hpp:7:7:TouchForwarder::~TouchForwarder()	1
+TouchForwarder.hpp:7:7:virtual TouchForwarder::~TouchForwarder()	1
+AbstractButton.hpp:73:18:virtual void touchgfx::AbstractButton::executeAction()	3
+TouchForwarder.cpp:10:6:virtual void TouchForwarder::handleDragEvent(const touchgfx::DragEvent&)	2
+TouchForwarder.cpp:19:6:virtual void TouchForwarder::handleGestureEvent(const touchgfx::GestureEvent&)	2

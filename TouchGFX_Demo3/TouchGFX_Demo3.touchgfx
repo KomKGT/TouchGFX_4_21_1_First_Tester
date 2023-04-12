@@ -1,0 +1,125 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Main",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 240,
+            "Height": 320,
+            "RelativeFilename": "background.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "touchgfxLogo",
+            "X": 20,
+            "Y": 135,
+            "Width": 200,
+            "Height": 51,
+            "RelativeFilename": "TGFX_shadow_logo.png",
+            "Moveable": true
+          },
+          {
+            "Type": "Button",
+            "Name": "gotoMenuButton",
+            "X": 173,
+            "Y": 265,
+            "Width": 55,
+            "Height": 42,
+            "Pressed": "gotoMenu.png",
+            "Released": "gotoMenu.png",
+            "Alpha": 96
+          },
+          {
+            "Type": "TextArea",
+            "Name": "headline1",
+            "X": 18,
+            "Y": 93,
+            "Width": 204,
+            "Height": 28,
+            "TextId": "__SingleUse_GKCD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 0,
+            "AutoSize": true,
+            "Fadeable": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "GotoMenuSelected",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "gotoMenuButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "gotoMenuSelected"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "TouchGFX_Demo3",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 24,
+    "StartupScreenName": "Main",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "touchgfx",
+    "UIPath": ".",
+    "ApplicationTemplateName": "Simulator",
+    "ApplicationTemplateVersion": "2.0.0",
+    "ApplicationTemplateDescription": "Simulator Application Template",
+    "AvailableColorDepths": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      24
+    ],
+    "AvailableLCDs": {
+      "1": "LCD1bpp",
+      "2": "LCD2bpp",
+      "4": "LCD4bpp",
+      "8": "LCD8bpp_ARGB2222",
+      "16": "LCD16bpp",
+      "24": "LCD24bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD24bpp": {
+        "Id": "LCD24bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "",
+    "FlashTargetCommand": "",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait"
+  },
+  "Version": "4.21.1",
+  "CreatedBy": "4.21.1"
+}

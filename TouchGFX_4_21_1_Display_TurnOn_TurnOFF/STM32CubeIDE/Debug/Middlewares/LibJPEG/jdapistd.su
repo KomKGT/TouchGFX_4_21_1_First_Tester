@@ -1,0 +1,6 @@
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Display_TurnOn_TurnOFF/Middlewares/Third_Party/LibJPEG/source/jdapistd.c:95:1:output_pass_setup	24	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Display_TurnOn_TurnOFF/Middlewares/Third_Party/LibJPEG/source/jdapistd.c:38:1:jpeg_start_decompress	8	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Display_TurnOn_TurnOFF/Middlewares/Third_Party/LibJPEG/source/jdapistd.c:152:1:jpeg_read_scanlines	32	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Display_TurnOn_TurnOFF/Middlewares/Third_Party/LibJPEG/source/jdapistd.c:185:1:jpeg_read_raw_data	24	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Display_TurnOn_TurnOFF/Middlewares/Third_Party/LibJPEG/source/jdapistd.c:228:1:jpeg_start_output	16	static
+D:/21032023_TouchGFX_WorkSpace/TouchGFX_4_21_1_First/TouchGFX_4_21_1_Display_TurnOn_TurnOFF/Middlewares/Third_Party/LibJPEG/source/jdapistd.c:253:1:jpeg_finish_output	8	static
